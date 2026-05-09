@@ -9,7 +9,7 @@ description: >
 version: "1.0.0"
 author: "nerua1"
 license: "MIT"
-compatible-with: claude-code, openclaw
+compatible-with: claude-code, openclaw, hermes-agent
 tags: [memory, obsidian, mempalace, rag, inter-agent, capture, shared-memory]
 ---
 
