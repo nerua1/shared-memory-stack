@@ -7,7 +7,7 @@ description: >
   ideas, and communicate between agents. Covers: vault structure, mempalace setup,
   capture-idea pipeline, openclaw-bridge, and inter-agent communication.
 version: "1.0.0"
-author: "nerua1"
+author: "nerudek"
 license: "MIT"
 compatible-with: claude-code, openclaw, hermes-agent
 tags: [memory, obsidian, mempalace, rag, inter-agent, capture, shared-memory]
@@ -207,7 +207,7 @@ OpenClaw writes to shared vault/files. Claude Code reads on next session via mem
 
 ## 4. Publishing skills
 
-Both agents publish to GitHub under `nerua1`. SSH key and `gh` are configured.
+Both agents publish to GitHub under `nerudek`. SSH key and `gh` are configured.
 
 ```bash
 # Claude Code skills
@@ -220,9 +220,9 @@ gh repo create SKILL_NAME --public --source . --remote origin --push
 ```
 
 **Configured:**
-- SSH key: `~/.ssh/github_nerua1` (added to github.com/nerua1)
-- `gh` authenticated as `nerua1`
-- `git config`: user.name=nerua1, user.email=neru_a1@icloud.com
+- SSH key: `~/.ssh/github_nerudek` (added to github.com/nerudek)
+- `gh` authenticated as `nerudek`
+- `git config`: user.name=nerudek, user.email=neru_a1@icloud.com
 
 ---
 

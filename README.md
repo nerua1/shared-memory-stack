@@ -4,7 +4,7 @@ Shared memory architecture for multi-agent AI: Obsidian + MemPalace + capture pi
 
 Install:
 ```bash
-git clone https://github.com/nerua1/shared-memory-stack ~/.claude/skills/vault/shared-memory-stack
+git clone https://github.com/nerudek/shared-memory-stack ~/.claude/skills/vault/shared-memory-stack
 ```
 
 Then load: `/skill shared-memory-stack`
